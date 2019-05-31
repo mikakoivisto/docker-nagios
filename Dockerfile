@@ -1,4 +1,4 @@
-FROM jasonrivers/nagios:latest
+FROM jasonrivers/nagios:4.4.3
 MAINTAINER Mika Koivisto <mika@jguru.fi>
 
 RUN apt-get update && apt-get install -y        \
